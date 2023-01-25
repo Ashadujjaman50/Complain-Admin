@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ashadujjaman.cregadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WomenSafetyAdmin"
+        tools:targetApi="31">
+        <activity
+            android:name=".NoticeViewActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ComplaintShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Scholar.ActivityScholarMessage"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Chat.ActivityMessage"
+            android:exported="false" />
+        <activity
+            android:name=".Support.ActivityLegalSupport"
+            android:exported="false" />
+        <activity
+            android:name=".Support.ActivitySupportList"
+            android:exported="false" />
+        <activity
+            android:name=".Chat.ActivityChat"
+            android:exported="false" />
+        <activity
+            android:name=".Scholar.ActivityScholarList"
+            android:exported="false"
+            android:label="scholar" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

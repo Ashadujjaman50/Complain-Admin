@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="complain_title">Complain Title</string>
+    <string name="user_name">User Name</string>
+    <string name="notice_title">Notice title</string>
+    <string name="notice_description">Notice description</string>
+    <string name="notice_image">Notice Image</string>
+    <string name="publish">Publish</string>
+</resources>
